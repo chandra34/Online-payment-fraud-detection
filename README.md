@@ -19,26 +19,26 @@ The system processes financial transaction data to detect fraudulent activities 
 
 ## 📦 Dependencies  
 Ensure you have the following installed before running the project:  
-Python 3.x  
-PyTorch  
-Pandas  
-NumPy  
-Matplotlib  
-Seaborn  
-Scikit-learn  
+- Python 3.x  
+- PyTorch  
+- Pandas  
+- NumPy  
+- Matplotlib  
+- Seaborn  
+- Scikit-learn  
 
 📊 Dataset
 The project utilizes a fraud detection dataset containing:
 
-Transaction type
-Transaction amount
-Original & new account balances
-Fraud labels (binary classification: Fraud/Not Fraud)
+- Transaction type
+- Transaction amount
+- Original & new account balances
+- Fraud labels (binary classification: Fraud/Not Fraud)
 
 🏗️ Model Architecture
 The neural network is structured as follows:
 
-Input layer (based on feature dimensions)
-Two hidden layers (128 & 64 neurons)
-ReLU activation in hidden layers
-Output layer with sigmoid activation
+- Input layer (based on feature dimensions)
+- Two hidden layers (128 & 64 neurons)
+- ReLU activation in hidden layers
+- Output layer with sigmoid activation
